@@ -58,3 +58,9 @@ p {
 #section-a .content-wrap {
   padding: 0 1.5em;
 }
+/* Section A */
+#section-a {
+  background-color: #FFFFFF;
+  color: #000000;
+  padding-bottom: 2em;
+}
