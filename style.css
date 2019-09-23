@@ -87,3 +87,16 @@ p {
 .card-content {
   padding: 1.5em;
 }
+
+/* Section C */
+
+#section-c {
+  background-color: #fff;
+  color: #333;
+  padding: 2em;
+}
+
+#section-c .content-text {
+  columns: 1;
+  column-gap: 2em;
+}
