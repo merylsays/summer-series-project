@@ -81,7 +81,7 @@ p {
 #section-b li {
   margin-bottom: 1em;
   background: #fff;
-  color: #333;
+  color: #000;
 }
 
 .card-content {
@@ -92,7 +92,7 @@ p {
 
 #section-c {
   background-color: #fff;
-  color: #333;
+  color: #000;
   padding: 2em;
 }
 
