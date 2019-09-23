@@ -67,7 +67,7 @@ p {
 
 /* Section B */
 #section-b {
-  background-color: linear-gradient(to right bottom, rgba(188, 36, 51, 0.9), rgba(32, 70, 139, 0.9));
+  background: linear-gradient(to right bottom, rgba(188, 36, 51, 0.9), rgba(32, 70, 139, 0.9));
   color: #FFFFFF;
   padding: 2em 1em 1em;
 }
