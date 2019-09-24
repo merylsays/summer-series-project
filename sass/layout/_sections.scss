@@ -1,0 +1,51 @@
+/* Section A */
+#section-a {
+  background-image: url('/assets/nation-talent-hero.jpg');
+  background-color: $primary-white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  color: $primary-black;
+  padding-bottom: 2em;
+}
+
+/* Section B */
+#section-b {
+  background: linear-gradient(to right bottom,
+  rgba($primary-red, 0.9), rgba($primary-blue 0.9));
+  color: $primary-white;
+  padding: 2em 1em 1em;
+}
+#section-b ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#section-b li {
+  margin-bottom: 1em;
+  background: $primary-white;
+  color: $primary-black;
+}
+.card-content {
+  padding: 1.5em;
+}
+
+/* Section C */
+#section-c {
+  background-color: $primary-white;
+  color: $primary-black;
+  padding: 2em;
+}
+#section-c .content-text {
+  columns: 1;
+  column-gap: 2em;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  background-color: $primary-blue;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}

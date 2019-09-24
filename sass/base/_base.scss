@@ -1,31 +1,23 @@
-/*primary colors
-RED #BC2433;
-BLUE #20468B;
-BLACK #000000;
-WHITE #FFFFFF;
-*/
 /*base styles*/
+
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background: #000000;
-  color: #FFFFFF;
+  font-family: aleo;
+  background: $primary-white;
+  color: $primary-white;
   font-size: 1.1;
   line-height: 1.5;
   text-align: center;
 }
-
 img {
   display: block;
   width: 100%;
   height: auto;
 }
-
 h1, h2, h3 {
   margin: 0;
   padding: 1em 0;
 }
-
 p {
   margin: 0;
   padding: 1em 0;

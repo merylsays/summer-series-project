@@ -1,0 +1,48 @@
+#showcase {
+  min-height: 450px;
+  color: $primary-white;
+  text-align: center;
+}
+
+#showcase .showcase-bg {
+  background-color: $primary-blue;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 450px;
+  z-index: -1;
+}
+
+#showcase h1 {
+  padding-top: 3em;
+  padding-bottom: 0;
+}
+
+#showcase .content-wrap,
+#section-a .content-wrap {
+  padding: 0 1.5em;
+}
+
+.showcase-primary {
+  color: $primary-white;
+  text-transform: uppercase;
+}
+
+.showcase-primary-first {
+  font-family: 'din';
+  display: block;
+  font-size: 45px;
+  font-weight: 700;
+  letter-spacing: 15px;
+  animation: moveInLeft 1s ease-out;
+}
+
+.showcase-primary-second {
+  font-family: 'aleo';
+  display: block;
+  font-size: 39px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  animation: moveInRight 1s ease-out;
+}
