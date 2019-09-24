@@ -1,0 +1,23 @@
+{
+  "name": "summer-series-project",
+  "version": "1.0.0",
+  "description": "marketing page",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  },
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/merylsays/summer-series-project.git"
+  },
+  "author": "meryl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/merylsays/summer-series-project/issues"
+  },
+  "homepage": "https://github.com/merylsays/summer-series-project#readme"
+}
