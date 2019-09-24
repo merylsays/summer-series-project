@@ -42,16 +42,15 @@ p {
   color: #fff;
   text-align: center;
 }
-#showcase .bg-image {
+#showcase .showcase-bg {
+  background-color: #20468B;
   position: absolute;
-  background-image: linear-gradient(to right bottom, rgba(188, 36, 51, 0.9), rgba(32, 70, 139, 0.9)), url(./assets/nation-talent-hero.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 100%;
   height: 450px;
   z-index: -1;
 }
+
+
 #showcase h1 {
   padding-top: 100px;
   padding-bottom: 0;
@@ -61,14 +60,68 @@ p {
   padding: 0 1.5em;
 }
 
+.showcase-primary {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.showcase-primary-first {
+  font-family: 'din';
+  display: block;
+  font-size: 72px;
+  font-weight: 700;
+  letter-spacing: 15px;
+  animation: moveInLeft 1s ease-out;
+}
+
+.showcase-primary-second {
+  font-family: 'din';
+  display: block;
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  animation: moveInRight 1s ease-out;
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-30%);
+  }
+  80% {
+    transform: translateX(2%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0)
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(30%);
+  }
+  80% {
+    transform: translateX(-2%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0)
+  }
+}
+
 /* Section A */
 #section-a {
+  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(./assets/nation-talent-hero.jpg);
   background-color: #FFFFFF;
+  background-size: contain;
   color: #000000;
   padding-bottom: 2em;
 }
 
 /* Section B */
+
 #section-b {
   background: linear-gradient(to right bottom, rgba(188, 36, 51, 0.9), rgba(32, 70, 139, 0.9));
   color: #FFFFFF;
@@ -97,4 +150,33 @@ p {
 #section-c .content-text {
   columns: 1;
   column-gap: 2em;
+}
+
+/* Media Query */
+@media(min-width: 700px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+  }
+  #section-c .content-text {
+    columns: 2;
+    column-gap: 2em;
+  }
+  #section-c .content-text p {
+    padding-top: 0;
+  }
+  #section-c .content-text h3 {
+    padding-top: 0;
+  }
+  .content-wrap,
+  #section-b ul {
+    grid-column: 2/4;
+  }
+  #section-b ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  #section-b li {
+    width: 24%;
+  }
 }
